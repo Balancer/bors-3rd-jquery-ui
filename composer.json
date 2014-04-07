@@ -23,8 +23,9 @@
 
 	"extra": {
 		"assets-presets": {
-			"jquery.jquery.ui": {
-				"jsfiles_footer": "/js/jquery-ui.min.js"
+			"jquery.jquery-ui": {
+				"jsfiles_footer": "/js/jquery-ui.min.js",
+				"require": "/themes"
 			}
 		}
 	}
