@@ -1,0 +1,31 @@
+{
+	"name": "balancer/bors-3rd-jquery-ui",
+	"description": "jQuery UI assets for any PHP project",
+	"license": "MIT",
+
+	"authors": [
+		{
+			"name": "Balancer",
+			"email": "balancer@balancer.ru"
+		}
+	],
+
+	"require": {
+		"atelierspierrot/assets-manager": "1.*",
+		"balancer/bors-3rd-jquery": ">=1.6"
+	},
+
+	"type": "bors-assets",
+
+    "autoload": {
+		"classmap": ["classes/"]
+    },
+
+	"extra": {
+		"assets-presets": {
+			"jquery.jquery.ui": {
+				"jsfiles_footer": "/js/jquery-ui.min.js"
+			}
+		}
+	}
+}
