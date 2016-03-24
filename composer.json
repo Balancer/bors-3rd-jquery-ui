@@ -11,7 +11,7 @@
 	],
 
 	"require": {
-		"atelierspierrot/assets-manager": "1.*",
+		"robloach/component-installer": "*",
 		"balancer/bors-3rd-jquery": ">=1.6"
 	},
 
